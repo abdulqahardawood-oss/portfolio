@@ -1,0 +1,132 @@
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  
+}
+
+
+
+/* NAVBAR STYLE START HERE*/
+nav{
+    background-color:whitesmoke;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 35px;
+    background-color:lightgreen; 
+    
+
+}
+nav ul{
+    display: flex;
+    gap: 25px;
+}
+nav ul li a{
+    color: black;
+    font-size: 15px;
+
+
+}
+nav ul li a:hover{
+    color:burlywood;
+}
+nav button{
+     background-color:purple;
+  color: white;
+  padding:10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor:pointer;
+
+}
+
+nav button:hover{
+    background-color: brown;
+    color:whitesmoke;
+     border: 1px solid black;
+  border-radius: 15px;
+}
+
+/*NAVBAR STYLE END HERE*/
+
+
+.first{
+     
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 30px;
+    background-color:silver;
+    
+
+}
+
+
+.first img{
+    border-radius: 50px;
+}
+
+.second{
+    
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+;
+    
+    
+
+
+}
+
+.expert{
+    text-align: center;
+}
+
+.made{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    
+}
+.third{
+    border-radius: 20px;
+    border: 1px solid;
+    padding: 5px;
+    text-align: justify;
+    background-color: aliceblue;
+    
+}
+.hobbies{
+    
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    
+}
+.omo{
+    margin-left: 50px;
+}
+.idk{
+     text-align: center;
+     margin-top: 50px;
+}
+.footer{
+        padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+h1{
+    color:green;
+}
+
